@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-title>Say hello to card</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+
+    <!-- Company Header -->
+    <mj-section padding="10px 0 20px 0">
+      <mj-column>
+        <mj-image width="80px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png"></mj-image>
+        <mj-text align="center" font-style="italic" font-size="20px"color="#626262">
+          {{ company }}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+    <!-- Introduction Text -->
+    <mj-section padding="20px 0 20px 0" background-color="#fafafa">
+        <mj-column>
+
+          <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">{{ asunto }}</mj-text>
+
+          <mj-text color="#525252">
+            {{ content }}
+          </mj-text>
+
+          <mj-button background-color="#F45E43" href="#">Descargar</mj-button>
+
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section padding="10px 0 20px 0">
+      <mj-column>
+        <mj-text align="center" color="#9B9B9B" font-size="11px">
+          <a href="#" style="color: #9B9B9B;">Unsubscribe</a> 
+          from this newsletter<br />52 Edison Court Suite 259 / East Aidabury / Cambodi<br /> 
+          <a href="#" style="color: #9B9B9B; text-decoration:none;">Made by svenhaustein.de</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
